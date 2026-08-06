@@ -31,4 +31,8 @@
 <style lang="scss">
     @use '../../../assets/styles/el-ns';
     @use 'element-plus/theme-chalk/src/dropdown-item';
+
+    .kel-dropdown-menu__item.is-disabled {
+        color: var(--ks-text-muted);
+    }
 </style>
